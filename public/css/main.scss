@@ -1,10 +1,16 @@
 $basic-horizontal-padding: 7%;
 $basic-vertical-padding: 3%;
 
-/* Colors */
+// Colors
 $background-color: #1f1f1f;
 
-/* Global basic styling */
+$orange: #f78c00;
+$orange-hover: #d67b03;
+
+$green: #069412;
+$green-hover: #096e12;
+
+// Global basic styling
 
 body {
     margin: 0;
@@ -14,5 +20,15 @@ body {
 
     .container-fluid {
         padding: $basic-vertical-padding $basic-horizontal-padding;
+    }
+
+    .btn-primary {
+        background: $orange;
+        border: none;
+        box-shadow: 0px 10px 72px 15px $orange;
+
+        &:hover {
+            background: $orange-hover;
+        }
     }
 }

@@ -14,13 +14,13 @@
             <a class="nav-link" href="#about">O serwerze</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#offer-intro">Ranking</a>
+            <a class="nav-link" href="#rank">Ranking</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#contact">Kontakt</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#offer-intro">Ranking</a>
+            <a class="nav-link btn btn-primary" href="#">Sklep</a>
           </li>
         </ul>
       </div>

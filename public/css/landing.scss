@@ -1,10 +1,20 @@
+// Paddings
 $basic-horizontal-padding: 7%;
 $basic-vertical-padding: 3%;
 
-/* Colors */
+// Colors
 $background-color: #1f1f1f;
+
 $orange: #f78c00;
+$orange-hover: #d67b03;
+
 $green: #069412;
+$green-hover: #096e12;
+
+// Fonts
+
+$primary-font: 'Open Sans';
+$secondary-font: 'Ubuntu';
 
 /* Header */
 
@@ -14,4 +24,15 @@ header {
     background-repeat: no-repeat;
     height: 80vh;
     text-align: center;
+}
+
+// Navbar
+
+nav {
+    font-family: $secondary-font, sans-serif;
+
+    .nav-link {
+        font-size: 1.2rem;
+        margin: 0 0.3rem;
+    }
 }
