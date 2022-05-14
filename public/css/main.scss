@@ -5,12 +5,25 @@ $background-color: #1f1f1f;
 $orange: #f78c00;
 $green: #069412;
 
+/* Global basic styling */
+
 body {
     margin: 0;
     box-sizing: border-box;
     background-color: $background-color;
+    color: #fff;
 }
 
 .container-fluid {
     padding: $basic-padding;
+}
+
+/* Header */
+
+header {
+    background: linear-gradient(rgba(31,31,31,0.5), $background-color), url(./assets/heading-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+    text-align: center;
 }
