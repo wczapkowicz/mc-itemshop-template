@@ -2,6 +2,7 @@
   <div class="container-fluid">
     <div class="heading-wrapper">
       <div class="heading">
+        <img src="../../assets/logo.png" alt="server logo" class="heading-logo">
         <h1 class="heading-title">NazwaSerwera.pl | Twój serwer Skyblock</h1>
         <div class="heading-server-status-wrapper">
           <span class="pulse-animation pulse-dot-33"></span>
