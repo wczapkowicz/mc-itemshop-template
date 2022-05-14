@@ -1,19 +1,13 @@
 <template>
-  <header>
-    <NavBar/>
-  </header>
-  <main></main>
-  <footer></footer>
+  <main>
+      <router-view></router-view>
+  </main>
 </template>
 
 <script>
-import NavBar from './components/Navbar.vue'
 
 export default {
   name: 'ItemShop',
-  components: {
-    NavBar
-  }
 }
 </script>
 
