@@ -32,7 +32,35 @@ nav {
     font-family: $secondary-font, sans-serif;
 
     .nav-link {
-        font-size: 1.2rem;
         margin: 0 0.3rem;
+    }
+}
+
+// Heading
+
+.heading-wrapper {
+    padding: $basic-horizontal-padding $basic-vertical-padding;
+
+    .heading {
+        font-family: $primary-font, sans-serif;
+        
+        h1 {
+            font-weight: 900;
+            letter-spacing: 1px;
+        }
+
+        .heading-server-status-wrapper {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding-top: 2rem;
+
+            p {
+                margin: 0;
+                padding-left: 0.5rem;
+                color: $green;
+                text-shadow: 0px 0px 16px $green;
+            }
+        }
     }
 }
