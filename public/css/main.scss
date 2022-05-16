@@ -35,6 +35,17 @@ body {
             background: $orange-hover;
         }
     }
+
+    .btn-outline-primary {
+        border: 1px solid $orange;
+        color: white;
+
+        &:hover {
+            background: $orange;
+            box-shadow: 0px 10px 72px 15px $orange;
+            border: 1px solid $orange;
+        }
+    }
 }
 
 // Global animations

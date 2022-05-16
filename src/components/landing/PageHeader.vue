@@ -8,6 +8,7 @@
           <span class="pulse-animation pulse-dot-20"></span>
           <p class="heading-server-status">Status serwera: Online [5/100]</p>
         </div>
+        <a href="#" class="btn btn-lg btn-outline-primary">Zagraj teraz!</a>
       </div>
     </div>
   </div>
