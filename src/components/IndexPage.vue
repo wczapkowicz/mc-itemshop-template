@@ -2,6 +2,7 @@
     <header>
         <Navbar />
         <PageHeader />
+        <AboutServer />
     </header>
     <main>
 
@@ -14,13 +15,15 @@
 <script>
     import Navbar from './landing/Navbar.vue';
     import PageHeader from './landing/PageHeader.vue';
+    import AboutServer from './landing/AboutServer.vue';
 
     export default {
     name: "ItemShop",
     components: {
-        Navbar,
-        PageHeader
-    }
+    Navbar,
+    PageHeader,
+    AboutServer,
+}
 }
 
 </script>
