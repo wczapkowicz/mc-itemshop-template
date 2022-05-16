@@ -45,7 +45,7 @@ nav {
         font-family: $primary-font, sans-serif;
         
         .heading-logo {
-            width: 33vw;
+            width: 25vw;
         }
 
         h1 {
@@ -65,6 +65,10 @@ nav {
                 color: $green;
                 text-shadow: 0px 0px 16px $green;
             }
+        }
+
+        .heading-button {
+            margin-top: 1rem;
         }
     }
 }
