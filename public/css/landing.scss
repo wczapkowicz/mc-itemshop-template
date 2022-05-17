@@ -5,6 +5,8 @@ $basic-vertical-padding: 3%;
 // Colors
 $background-color: #1f1f1f;
 
+$secondary-font-color: #bfbcbc;
+
 $orange: #f78c00;
 $orange-hover: #d67b03;
 
@@ -51,13 +53,15 @@ nav {
         h1 {
             font-weight: 900;
             letter-spacing: 1px;
+            font-size: 3.5rem;
         }
 
         .heading-server-status-wrapper {
             display: flex;
             align-items: center;
             justify-content: center;
-            padding-top: 2rem;
+            padding-top: 1rem;
+            padding-bottom: 1.5rem;
 
             p {
                 margin: 0;
@@ -76,7 +80,19 @@ nav {
 // AboutServer section
 
 #about {
-    
+    min-height: 60vh;
+    text-align: left;
+    padding: 3%;
+
+    .about-heading {
+        font-family: $secondary-font, sans-serif;
+        font-weight: 900;
+        font-size: 3rem;
+    }
+
+    .about-description {
+        color: $secondary-font-color;
+    }
 }
 
 // Media query for RWD (mobile)
