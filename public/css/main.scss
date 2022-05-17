@@ -26,6 +26,10 @@ body {
         padding: $basic-vertical-padding $basic-horizontal-padding;
     }
 
+    .container-fluid-2x {
+        padding: $basic-vertical-padding*2 $basic-horizontal-padding*2;
+    }
+
     .btn-primary {
         background: $orange;
         border: none;

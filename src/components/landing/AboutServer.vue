@@ -1,6 +1,6 @@
 <template>
     <div id="about">
-        <div class="container-fluid">
+        <div class="container-fluid-2x">
             <div class="row d-flex justify-content-center align-items-center">
                 <div class="col-sm-12 col-md-6">
                     <h1 class="about-heading">O serwerze</h1>

@@ -102,5 +102,17 @@ nav {
         .heading-logo {
             width: 75vw !important;
         }
+
+        .heading-title {
+            font-size: 2rem !important;
+        }
+    }
+
+    #about {
+        text-align: center;
+
+        .about-image{
+            width: 66vw;
+        }
     }
 }
