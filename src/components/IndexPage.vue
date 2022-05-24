@@ -5,6 +5,7 @@
     </header>
     <main>
         <AboutServer />
+        <FeaturesSection />
     </main>
     <footer>
 
@@ -15,6 +16,7 @@
     import Navbar from './landing/Navbar.vue';
     import PageHeader from './landing/PageHeader.vue';
     import AboutServer from './landing/AboutServer.vue';
+    import FeaturesSection from './landing/FeaturesSection.vue';
 
     export default {
     name: "ItemShop",
@@ -22,6 +24,7 @@
     Navbar,
     PageHeader,
     AboutServer,
+    FeaturesSection,
 }
 }
 
