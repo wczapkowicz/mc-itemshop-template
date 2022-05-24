@@ -2,10 +2,9 @@
     <header>
         <Navbar />
         <PageHeader />
-        <AboutServer />
     </header>
     <main>
-
+        <AboutServer />
     </main>
     <footer>
 
