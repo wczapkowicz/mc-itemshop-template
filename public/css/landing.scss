@@ -13,6 +13,12 @@ $orange-hover: #d67b03;
 $green: #069412;
 $green-hover: #096e12;
 
+// Feature icons background
+
+$first-feature: rgb(100, 13, 166);
+$second-feature: rgb(19, 148, 25);
+$third-feature: rgb(176, 56, 22);
+
 // Fonts
 
 $primary-font: 'Open Sans';
@@ -101,6 +107,55 @@ nav {
 }
 
 #features {
+    height: 60vh;
+
+    .feature {
+        text-align: center;
+
+        .feature-icon {
+            margin: 2rem auto;
+
+            width: 5rem;
+            height: 5rem;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            border-radius: 10px 0 10px 0;
+        }
+
+        &:nth-child(1) {
+            .feature-icon {
+                background: $first-feature;
+                box-shadow: 3px 10px 72px 3px $first-feature;
+            }
+        }
+
+        &:nth-child(2) {
+            .feature-icon {
+                background: $second-feature;
+                box-shadow: 3px 10px 72px 3px $second-feature;
+            }
+        }
+
+        &:nth-child(3) {
+            .feature-icon {
+                background: $third-feature;
+                box-shadow: 3px 10px 72px 3px $third-feature;
+            }
+        }
+
+        .feature-heading {
+            font-family: 'Ubuntu', sans-serif;
+        }
+
+        .feature-description {
+            line-height: 2;
+            color: #dedede;
+            padding: 0 2rem;
+        }
+    }
 
 }
 
