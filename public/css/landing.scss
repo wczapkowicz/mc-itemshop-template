@@ -88,7 +88,7 @@ nav {
 #about {
     min-height: 60vh;
     text-align: left;
-    padding: 3%;
+    padding: 7% 3%;
 
     .about-heading {
         font-family: $secondary-font, sans-serif;
@@ -105,6 +105,8 @@ nav {
     }
 
 }
+
+// Features Section
 
 #features {
     height: 60vh;
@@ -157,6 +159,12 @@ nav {
         }
     }
 
+}
+
+// CTA section
+
+#cta {
+    
 }
 
 // Media query for RWD (mobile)

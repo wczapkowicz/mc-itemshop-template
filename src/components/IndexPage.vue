@@ -6,6 +6,7 @@
     <main>
         <AboutServer />
         <FeaturesSection />
+        <LandingCta />
     </main>
     <footer>
 
@@ -17,6 +18,7 @@
     import PageHeader from './landing/PageHeader.vue';
     import AboutServer from './landing/AboutServer.vue';
     import FeaturesSection from './landing/FeaturesSection.vue';
+    import LandingCta from './landing/LandingCta.vue';
 
     export default {
     name: "ItemShop",
@@ -25,6 +27,7 @@
     PageHeader,
     AboutServer,
     FeaturesSection,
+    LandingCta,
 }
 }
 
