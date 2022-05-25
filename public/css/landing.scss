@@ -164,7 +164,22 @@ nav {
 // CTA section
 
 #cta {
-    
+
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 40vh;
+
+    clip-path: polygon(100% 0, 100% 79%, 0 100%, 0 100%, 0 0);    background: linear-gradient($background-color, rgba(31,31,31,0.5)), url(../assets/cta-bg.jpg);
+    background-size: cover;
+
+    a {
+        margin: 1rem 0;
+    }
+
 }
 
 // Media query for RWD (mobile)
