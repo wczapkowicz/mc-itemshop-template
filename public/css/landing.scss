@@ -161,6 +161,22 @@ nav {
 
 }
 
+// Map section
+
+#map {
+    margin-bottom: 4rem;
+    min-height: 40vh;
+
+    text-align: center;
+
+    h1 {
+        font-family: 'Ubuntu', sans-serif;
+        font-weight: bolder;
+        font-size: 3rem;
+        margin: 2rem;
+    }
+}
+
 // CTA section
 
 #cta {
@@ -176,6 +192,8 @@ nav {
     clip-path: polygon(100% 0, 100% 79%, 0 100%, 0 100%, 0 0);    background: linear-gradient($background-color, rgba(31,31,31,0.5)), url(../assets/cta-bg.jpg);
     background-size: cover;
 
+    font-family: 'Ubuntu', sans-serif;
+
     a {
         margin: 1rem 0;
     }
@@ -185,8 +203,14 @@ nav {
 
 #contact {
     min-height: 70vh;
-
     text-align: center;
+}
+
+// Footer
+
+#footer {
+    text-align: center;
+    color: $secondary-font-color;
 }
 
 // Media query for RWD (mobile)

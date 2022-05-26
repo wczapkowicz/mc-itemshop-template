@@ -6,11 +6,12 @@
     <main>
         <AboutServer />
         <FeaturesSection />
+        <GameMap />
         <LandingCta />
         <ContactPage />
     </main>
     <footer>
-
+        <PageFooter />
     </footer>
 </template>
 
@@ -19,8 +20,10 @@
     import PageHeader from './landing/PageHeader.vue';
     import AboutServer from './landing/AboutServer.vue';
     import FeaturesSection from './landing/FeaturesSection.vue';
+    import GameMap from './landing/GameMap.vue';
     import LandingCta from './landing/LandingCta.vue';
     import ContactPage from './landing/ContactPage.vue';
+    import PageFooter from './landing/PageFooter.vue';
 
     export default {
     name: "ItemShop",
@@ -30,7 +33,9 @@
     AboutServer,
     FeaturesSection,
     LandingCta,
+    GameMap,
     ContactPage,
+    PageFooter
 }
 }
 

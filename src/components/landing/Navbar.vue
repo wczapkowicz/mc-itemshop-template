@@ -14,7 +14,7 @@
             <a class="nav-link" href="#about">O serwerze</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#rank">Ranking</a>
+            <a class="nav-link" href="#map">Mapa serwera</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#contact">Kontakt</a>
